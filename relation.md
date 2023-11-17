@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-11-12 04:48:53 CST)
+(The last generation time: 2023-11-17 12:15:51 CST)
 
 ### Packages
 
@@ -14,6 +14,9 @@
  app-admin/zenmonitor3                      | 2.0.0                                     |        | https://git.exozy.me/a/zenmonitor3                                                      | Zen monitor is monitoring software for AMD Zen-based CPUs
    sys-kernel/zenpower3                     | 0.2.0                                     |  D, RD | https://git.exozy.me/a/zenpower3                                                        | Linux kernel driver for reading sensors of AMD Zen family CPUs
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ app-arch/zchunk                            | 1.3.2                                     |        | https://github.com/zchunk/zchunk                                                        | A format designed for highly efficient deltas while maintaining good compression
+                                            | 9999                                      |        |                                                                                         |
+--------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-backup/btrfs-assistant                 | 1.8                                       |        | https://gitlab.com/btrfs-assistant/btrfs-assistant                                      | A GUI management tool to make managing a Btrfs filesystem easier.
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -21,14 +24,16 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-containers/distrobox-boost             | 9999                                      |        | https://github.com/xz-dev/distrobox-boost                                               | A container runtimer wrapper for OCI (distrobox/toolbox, also podman/docker)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ app-crypt/cfssl                            | 1.6.4                                     |        | https://github.com/cloudflare/cfssl                                                     | Cloudflare's PKI and TLS toolkit
+--------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-crypt/etoken-sac                       | 10.3                                      |        | http://aladdin-rd.ru                                                                    | SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-dicts/fcitx-pinyin-moegirl             | 20230714                                  |        | https://github.com/outloudvi/mw2fcitx                                                   | Fcitx 5 Pinyin Dictionary from zh.moegirl.org.cn
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-dicts/fcitx-pinyin-zhwiki              | 20230728                                  |        | https://github.com/felixonmars/fcitx5-pinyin-zhwiki                                     | Fcitx 5 Pinyin Dictionary from zh.wikipedia.org
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-editors/appflowy-bin                   | 0.3.6                                     |        | https://www.appflowy.io/                                                                | AppFlowy is an open-source alternative to Notion
-                                            | 0.3.7                                     |        |                                                                                         |
+ app-editors/appflowy-bin                   | 0.3.7                                     |        | https://www.appflowy.io/                                                                | AppFlowy is an open-source alternative to Notion
+                                            | 0.3.8                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-editors/marktext-bin                   | 0.17.1                                    |        | https://marktext.app/                                                                   | A simple and elegant markdown editor, available for Linux, macOS and Windows.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -46,12 +51,14 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/fcitx-chewing                     | 5.1.1                                     |        | https://github.com/fcitx/fcitx5-chewing                                                 | Chewing Wrapper for Fcitx.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ app-i18n/fcitx-m17n                        | 5.1.0                                     |        | https://fcitx-im.org                                                                    | m17n-provided input methods for Fcitx5
+--------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/fcitx-meta                        | 5.0.12-r2                                 |        | https://fcitx-im.org                                                                    | Merge this to pull in Fcitx packages
    app-i18n/fcitx-chinese-addons            | 5.1.2                                     |  D, RD | https://github.com/fcitx/fcitx5-chinese-addons                                          | Addons related to Chinese, including IME previous bundled inside fcitx4.
                                             | 9999                                      |        |                                                                                         |
-     app-i18n/fcitx-lua                     | 5.0.10                                    |  D, RD | https://github.com/fcitx/fcitx5-lua                                                     | Lua support for fcitx
+     app-i18n/fcitx-lua                     | 5.0.11                                    |  D, RD | https://github.com/fcitx/fcitx5-lua                                                     | Lua support for fcitx
                                             | 9999                                      |        |                                                                                         |
-     app-i18n/fcitx-qt                      | 5.1.3                                     |  D, RD | https://github.com/fcitx/fcitx5-qt                                                      | Qt library and IM module for fcitx5
+     app-i18n/fcitx-qt                      | 5.1.3-r1                                  |  D, RD | https://github.com/fcitx/fcitx5-qt                                                      | Qt library and IM module for fcitx5
                                             | 9999                                      |        |                                                                                         |
    app-i18n/fcitx-configtool                | 5.1.2                                     | RD     | https://fcitx-im.org/                                                                   | Configuration module for Fcitx
                                             | 9999                                      |        |                                                                                         |
@@ -69,6 +76,8 @@
  app-i18n/fcitx-table-other                 | 5.1.0                                     |        | https://github.com/fcitx/fcitx5-table-other                                             | Provides some other tables for Fcitx, fork from ibus-table-others, scim-tables
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/ibus-rime                         | 9999                                      |        | http://code.google.com/p/rimeime/                                                       | Rime Input Method Engine for IBus Framework
+--------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ app-i18n/libime-jyutping                   | 1.0.8                                     |        | https://github.com/fcitx/libime-jyutping                                                | A library make use of libime to implement jyutping (粵拼) input method
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/lunar                             | 2.2-r5                                    |        | https://packages.debian.org/unstable/utils/lunar                                        | Chinese Lunar Calendar conversion utility
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -139,7 +148,7 @@
                                             | 2.1.1                                     |        |                                                                                         |
                                             | 2.2                                       |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-office/anytype-bin                     | 0.35.0                                    |        | https://anytype.io                                                                      | A notebook based on p2p network
+ app-office/anytype-bin                     | 0.35.4                                    |        | https://anytype.io                                                                      | A notebook based on p2p network
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-office/bytedance-feishu                | 4.11.6.2                                  |        | https://www.feishu.cn/                                                                  | feishu - ByteDance's enterprise collaboration platform
                                             | 5.14.14                                   |        |                                                                                         |
@@ -186,6 +195,8 @@
  dev-db/mongodb                             | 5.3.1                                     |        | https://www.mongodb.com                                                                 | A high-performance, open source, schema-free document-oriented database
                                             | 6.2.0-r4                                  |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ dev-lang/quickjs                           | 2021.03.27                                |        | https://bellard.org/quickjs/                                                            | Small embeddable Javascript engine
+--------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-libs/libdwarf                          | 20140208                                  |        | https://github.com/Distrotech/libdwarf                                                  | Library to deal with DWARF Debugging Information Format
                                             | 20150507                                  |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -206,7 +217,7 @@
  dev-python/conda                           | 23.1.0                                    |        | https://conda.io/                                                                       | OS-agnostic, system-level binary package manager and ecosystem
    dev-python/conda-package-handling        | 2.0.2                                     |  D, RD | https://github.com/conda/conda-package-handling                                         | Create and extract conda packages of various formats
    dev-python/conda-package-streaming       | 0.7.0                                     |  D, RD | https://github.com/conda/conda-package-streaming                                        | An efficient library to read from new and old conda packages
-   dev-python/pycosat                       | 0.6.4                                     |  D, RD | https://github.com/ContinuumIO/pycosat                                                  | Python bindings to picosat (a SAT solver)
+   dev-python/pycosat                       | 0.6.6                                     |  D, RD | https://github.com/ContinuumIO/pycosat                                                  | Python bindings to picosat (a SAT solver)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/daff                            | 1.3.46                                    |        | https://github.com/paulfitz/daff                                                        | The daff can produce and apply tabular diffs
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -217,8 +228,9 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/arch-install-scripts              | 28-r1                                     |        | https://projects.archlinux.org/arch-install-scripts.git/                                | Arch Linux install tools (pacstrap, genfstab, arch-chroot)
    dev-util/pacstrap                        | 28                                        | RD     | https://github.com/archlinux/arch-install-scripts                                       | Pacstrap - install packages to the specified new root directorye
-     sys-apps/pacman                        | 6.0.2                                     |  D, RD | https://archlinux.org/pacman/                                                           | Archlinux's binary package manager
+     sys-apps/pacman                        | 6.0.2                                     |  D     | https://archlinux.org/pacman/                                                           | Archlinux's binary package manager
        app-crypt/archlinux-keyring          | 20231017                                  |  D, RD | https://gitlab.archlinux.org/archlinux/archlinux-keyring                                | GnuPG keyring of Archlinux developer keys
+                                            | 20231113                                  |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/bom-utils                         | 1.0                                       |        | https://github.com/jlblancoc/utf-bom-utils                                              | Small programs to add or remove the BOM mark in UTF8 files
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -249,8 +261,8 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-vcs/gitoxide                           | 0.31.1                                    |        | https://github.com/Byron/gitoxide                                                       | A command-line application for interacting with git repositories
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- games-arcade/osu-lazer                     | 2023.1008.1                               |        | https://osu.ppy.sh                                                                      | rhythm is just a *click* away!
-                                            | 2023.1026.0                               |        |                                                                                         |
+ games-arcade/osu-lazer                     | 2023.1026.0                               |        | https://osu.ppy.sh                                                                      | rhythm is just a *click* away!
+                                            | 2023.1114.1                               |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  games-board/othello                        | 0.2.2                                     |        | http://othello-game.sourceforge.net                                                     | Othello is a classic strategy game, also known as Reversi
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -267,7 +279,7 @@
                                             | 2.0                                       |        |                                                                                         |
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/Plangothic                     | 1.8.5746                                  |        | https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project                  | 遍黑体项目（Plangothic Project）
+ media-fonts/Plangothic                     | 1.8.5752                                  |        | https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project                  | 遍黑体项目（Plangothic Project）
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/cwtex-q-fonts                  | 0.2                                       |        | https://code.google.com/p/cwtex-q-fonts/                                                | Those five TrueType fonts are transformed from cwTeX Traditional Chinese Type 1 fonts(Version 1.1).
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -281,7 +293,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/nerd-fonts                     | 3.0.2                                     |        | https://github.com/ryanoasis/nerd-fonts                                                 | Nerd Fonts is a project that patches developer targeted fonts with glyphs
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/sarasa-gothic                  | 0.42.5                                    |        | https://github.com/be5invis/Sarasa-Gothic                                               | A CJK programming font based on Iosevka and Source Han Sans. (TTC)
+ media-fonts/sarasa-gothic                  | 0.42.6                                    |        | https://github.com/be5invis/Sarasa-Gothic                                               | A CJK programming font based on Iosevka and Source Han Sans. (TTC)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/sarasa-term-sc-nerd            | 1.1.0                                     |        | https://github.com/laishulu/Sarasa-Term-SC-Nerd                                         | Sarasa Mono SC font patched with Nerd fonts
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -296,8 +308,6 @@
  media-fonts/wangfonts                      | 1.3.0                                     |        | https://code.google.com/p/wangfonts/                                                    | Free Chinese TrueType fonts donated by Prof. Hann-Tzong Wang
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/zhudou                         | 2.000                                     |        | https://github.com/Buernia/Zhudou-Sans                                                  | A font family for CJK symbols and punctuation, derived from Noto Sans.
---------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-gfx/byzanz                           | 0.3.0.9999                                |        | https://gitlab.gnome.org/Archive/byzanz/                                                | Screencasting program that saves casts as GIF files
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-gfx/scangearmp                       | 1.60                                      |        | http://support-au.canon.com.au/contents/AU/EN/0100303302.html                           | Canon InkJet Scanner Driver and ScanGear MP for Linux (Pixus/Pixma-Series).
                                             | 2.4.10                                    |        |                                                                                         |
@@ -414,7 +424,7 @@
                                             | 0.1.29                                    |        |                                                                                         |
      dev-libs/libdatrie                     | 0.2.13                                    |  D, RD | https://github.com/tlwg/libdatrie                                                       | Double-Array Trie Library
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-im/tencent-qq                          | 3.2.1_p17749                              |        | https://im.qq.com/linuxqq/index.shtml                                                   | The new version of the official linux-qq
+ net-im/tencent-qq                          | 3.2.2_p18394                              |        | https://im.qq.com/linuxqq/index.shtml                                                   | The new version of the official linux-qq
    media-libs/openslide                     | 20230904                                  | RD     | http://openslide.org/                                                                   | C library with simple interface to read virtual slides
    x11-misc/flatpak-xdg-utils               | 1.0.5                                     | RD     | https://github.com/flatpak/flatpak-xdg-utils                                            | Utilities for containerized apps to launch programs outside the container
    x11-misc/snapd-xdg-open                  | 20170401                                  | RD     | https://github.com/snapcore/snapd-xdg-open                                              | Software for opening links from snaps in desktop
@@ -443,10 +453,12 @@
  net-misc/bbdown-bin                        | 1.5.9                                     |        | https://github.com/nilaoda/BBDown                                                       | The terminal utility for Baidu Network Disk (Golang Version).
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/biliup-app                        | 0.4.1-r2                                  |        | https://github.com/ForgQi/biliup-app                                                    | A Tool for Upload video to bilibili
+   dev-util/tauri-cli                       | 1.5.6                                     | BD     | https://tauri.app                                                                       | Command line interface for building Tauri apps
+                                            | 2.0.0_alpha17                             |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/biliup-app-bin                    | 0.4.1                                     |        | https://github.com/ForgQi/biliup-app                                                    | A Tool for Upload video to bilibili
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-misc/biliup-rs                         | 0.1.19                                    |        |                                                                                         | Upload video to bilibili.
+ net-misc/biliup-rs                         | 0.1.19                                    |        | https://github.com/biliup/biliup-rs                                                     | Upload video to bilibili.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/networkmanager-l2tp               | 9999                                      |        | http://www.gnome.org/projects/NetworkManager/                                           | NetworkManager L2TP plugin
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -455,8 +467,6 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/pcmanx-gtk2                       | 1.3                                       |        | https://github.com/pcman-bbs/pcmanx                                                     | PCMan is a gtk+ based free BBS client
                                             | 9999                                      |        |                                                                                         |
---------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-misc/postman-bin                       | 9.6.1                                     |        | https://www.getpostman.com                                                              | Supercharge your API workflow
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/prips                             | 1.0.0                                     |        | http://devel.ringlet.net/sysutils/prips/                                                | print the IP addresses in a range
                                             | 1.2.0                                     |        |                                                                                         |
@@ -484,17 +494,9 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/cgproxy                          | 0.20-r1                                   |        | https://github.com/springzfx/cgproxy                                                    | Transparent Proxy with cgroup v2
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash-verge                      | 1.3.8                                     |        | https://github.com/zzzgydi/clash-verge                                                  | A Clash GUI based on tauri
-   dev-lang/quickjs                         | 2021.03.27                                | BD     | https://bellard.org/quickjs/                                                            | Small embeddable Javascript engine
-   dev-util/tauri-cli                       | 1.5.6                                     | BD     | https://tauri.app                                                                       | Command line interface for building Tauri apps
-                                            | 2.0.0_alpha17                             |        |                                                                                         |
-   net-proxy/clash                          | 1.17.0                                    | RD     | https://github.com/Dreamacro/clash                                                      | A rule-based tunnel in Go.
-                                            | 1.18.0                                    |        |                                                                                         |
-   net-proxy/clash-meta                     | 1.16.0                                    | RD     | https://github.com/MetaCubeX/Clash.Meta                                                 | Another Clash Kernel.
-     acct-group/clash-meta                  | 0                                         |  D, RD |                                                                                         | Another Clash Kernel.
-     acct-user/clash-meta                   | 0                                         |  D, RD |                                                                                         | Another Clash Kernel.
---------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash-verge-bin                  | 1.3.8                                     |        | https://github.com/zzzgydi/clash-verge                                                  | A Clash GUI based on tauri
+ net-proxy/clash-meta                       | 1.16.0                                    |        | https://github.com/MetaCubeX/Clash.Meta                                                 | Another Clash Kernel.
+   acct-group/clash-meta                    | 0                                         |  D, RD |                                                                                         | Another Clash Kernel.
+   acct-user/clash-meta                     | 0                                         |  D, RD |                                                                                         | Another Clash Kernel.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/dae                              | 0.3.0                                     |        | https://github.com/daeuniverse/dae                                                      | A lightweight and high-performance transparent proxy solution based on eBPF
                                             | 9999                                      |        |                                                                                         |
@@ -503,7 +505,7 @@
                                             | 9999                                      |        |                                                                                         |
    sys-apps/pnpm                            | 8.6.2                                     | BD     | https://pnpm.io                                                                         | Fast, disk space efficient package manager
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/hysteria                         | 2.1.0                                     |        | https://github.com/apernet/hysteria                                                     | A powerful, lightning fast and censorship resistant proxy.
+ net-proxy/hysteria                         | 2.2.0                                     |        | https://github.com/apernet/hysteria                                                     | A powerful, lightning fast and censorship resistant proxy.
    acct-group/hysteria                      | 0                                         |  D, RD |                                                                                         | A powerful, lightning fast and censorship resistant proxy.
    acct-user/hysteria                       | 0                                         |  D, RD |                                                                                         | A powerful, lightning fast and censorship resistant proxy.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -517,6 +519,7 @@
  net-proxy/smartproxy                       | 0.9.5                                     |        | https://github.com/microcai/smartproxy                                                  | A fast, proxy smart selector
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/v2rayA                           | 2.2.4.1                                   |        | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
+                                            | 2.2.4.3                                   |        |                                                                                         |
                                             | 9999                                      |        |                                                                                         |
    net-proxy/Xray                           | 1.7.5                                     | RD     | https://github.com/XTLS/Xray-core                                                       | Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support.
                                             | 1.8.4                                     |        |                                                                                         |
@@ -563,17 +566,6 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-apps/wait-online                       | 9999                                      |        | https://github.com/lilydjwg/wait-online                                                 | Wait until we're connected to the Internet
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sys-apps/yaourt                            | 1.2.2                                     |        | http://www.archlinux.fr/yaourt-en/                                                      | A pacman wrapper with extended features and AUR support
---------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sys-apps/zypper                            | 1.14.60                                   |        | https://en.opensuse.org/Portal:Zypper                                                   | World's most powerful command line package manager
-                                            | 9999                                      |        |                                                                                         |
-   sys-libs/libzypp                         | 17.31.11                                  | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | ZYpp Package Management library
-                                            | 9999                                      |        |                                                                                         |
-     sys-libs/libsolv                       | 0.7.24                                    | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | Library for solving packages and reading repositories
-                                            | 9999                                      |        |                                                                                         |
-       app-arch/zchunk                      | 1.3.2                                     | RD     | https://github.com/zchunk/zchunk                                                        | A format designed for highly efficient deltas while maintaining good compression
-                                            | 9999                                      |        |                                                                                         |
---------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-boot/ventoy-bin                        | 1.0.96                                    |        | http://www.ventoy.net                                                                   | A new multiboot USB solution
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-fs/coda                                | 7.0.5                                     |        | http://www.coda.cs.cmu.edu/                                                             | Coda is an advanced network file system, similar to NFS
@@ -594,7 +586,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-kernel/mkinitcpio                      | 34-r1                                     |        | https://github.com/archlinux/mkinitcpio                                                 | Modular initramfs image creation utility
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sys-libs/elog-functions                    | 0.0.2                                     |        | http://xochitl.matem.unam.mx/~canek/gentoo-systemd-only/index.html                      | Compatibility functions for the log eclass functions of OpenRC
+ sys-libs/elog-functions                    | 0.0.2                                     |        | http://xochitl.matem.unam.mx/~canek/gentoo-systemd-only/index.html                      | Compatibility functions for the log e* functions of OpenRC
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-power/tlpui                            | 1.5.0_p6                                  |        | https://github.com/d4nj1/TLPUI                                                          | A GTK user interface for TLP written in Python
                                             | 1.6.0                                     |        |                                                                                         |
@@ -610,7 +602,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/chatgpt-desktop                   | 1.1.0                                     |        | https://nofwl.com                                                                       | ChatGPT Desktop Application
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- www-client/brave                           | 1.60.114                                  |        | https://brave.com/                                                                      | Web browser that blocks ads and trackers by default
+ www-client/brave                           | 1.60.118                                  |        | https://brave.com/                                                                      | Web browser that blocks ads and trackers by default
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-servers/darkhttpd                      | 1.14                                      |        | http://unix4lyfe.org/darkhttpd/                                                         | A small, static webserver
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
